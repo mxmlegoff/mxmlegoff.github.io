@@ -26,7 +26,7 @@ img{
 body{
     font-family: Arial, sans-serif;
     background: rgb(0,164,255);
-    background: linear-gradient(90deg, rgba(0,164,255,0.3) 0%, rgba(0,137,214,0.3) 15%, rgba(0,120,187,0.3) 29%, rgba(0,94,147,0.3) 63%, rgba(7,56,152,0.3) 100%);
+background: linear-gradient(90deg, rgba(0,164,255,0.3) 0%, rgba(0,137,214,0.3) 15%, rgba(0,120,187,0.3) 29%, rgba(0,94,147,0.3) 63%, rgba(7,56,152,0.3) 100%);
 }
 
 ul{
@@ -182,13 +182,13 @@ aside img{
 }
 
 /* MENU */
-.menu-sticky{
+ nav{
      position: fixed;
      top: 10rem;
      right: 0;
  }
 
- .menu-sticky-item{
+ .menu-sticky-items{
      list-style: none inside;
      margin: 0;
      position: relative;
@@ -401,85 +401,3 @@ aside img{
     background-image: url(../images/ordinateur.svg);
 }
 
-/* RESPONSIVE DESIGN */ 
-@media screen and (max-width:30rem) {
-    .main{
-        flex-basis: 100%;
-    }
-
-    .aside{
-        flex-basis: 100%;
-        border-right: none;
-    }
-    
-    .main-container{
-        flex-direction: column-reverse;
-    }
-
-    .menu-sticky-text{
-        display: none;
-    }
-
-    .menu-sticky-link{
-        background-color: #0580B5;
-        justify-content: center;
-        padding:0;
-    }
-
-    .header{
-        margin: 1rem 2rem 1rem 2rem;
-    }
-
-    .content{
-        margin-top: 3rem;
-    }
-}
-
-@media screen and (max-width:50rem) {
-    .main{
-        flex-basis: 65%;
-    }
-
-    .aside{
-        flex-basis: 35%;
-    }
-
-    .informations-employer-details{
-        flex-basis: 100%;
-    }
-
-    .informations-employer-details-link{
-        margin-bottom: 1rem;
-        padding-left: 0;
-    }
-
-    .progress-container{
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-
-    .informations-competences{
-        flex-wrap: wrap;
-    }
-
-    .menu-sticky{
-        bottom:0;
-        top: auto;
-        width: 100%;
-    }
-
-    .menu-sticky-items{
-        display: flex;
-        margin: 0;
-    }
-
-    .menu-sticky-link{
-        position: initial;
-        width: 100%;
-        color: #fff;
-    }
-
-    .menu-sticky-item{
-        flex-basis: 25%;
-    }
-}
