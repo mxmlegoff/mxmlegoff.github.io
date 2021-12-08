@@ -26,7 +26,7 @@ img{
 body{
     font-family: Arial, sans-serif;
     background: rgb(0,164,255);
-background: linear-gradient(90deg, rgba(0,164,255,0.3) 0%, rgba(0,137,214,0.3) 15%, rgba(0,120,187,0.3) 29%, rgba(0,94,147,0.3) 63%, rgba(7,56,152,0.3) 100%);
+    background: linear-gradient(90deg, rgba(199,167,7,0.15) 0%, rgba(250,209,8,0.15) 50%, rgba(199,167,7,0.15) 100%);
 }
 
 ul{
@@ -40,19 +40,19 @@ article{
 
 a{
     text-decoration: none;
-    color: #0580B5;
+    color: #867417;
 }
 
 a:hover{
     text-decoration: underline;
-    color: #1B4BFF;
+    color: #bd9e07;
 }
 
 /* HEADER */
 .header{
     max-width: 80rem;
     margin: 1rem auto 1rem auto;
-    border-bottom: 5px solid #1B4BFF;
+    border-bottom: 5px solid #bd9e07;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -62,7 +62,7 @@ a:hover{
 }
 
 .header-subtitle{
-    color: #0580B5;
+    color: #867417;
 }
 
 /* CONTENU PRINCIPAL */
@@ -82,16 +82,16 @@ a:hover{
 
 /* ASIDE */
 .aside{
-    border-right: 3px solid #1B4BFF;
+    border-right: 3px solid #bd9e07;
     padding-right: 1rem;
     padding-left: 1rem;
     flex-basis:25%;
 }
 
 .aside-contact{
-    background-color:#1B4BFF;
+    background-color:#bd9e07;
     color: white;
-    border: 1px solid #1B4BFF;
+    border: 1px solid #bd9e07;
     display: flex;
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
@@ -104,9 +104,9 @@ a:hover{
 }
 
 .aside-contact:hover{ 
-    background-color:#0580B5;
+    background-color:#867417;
     color: white;
-    border: 1px solid #0580B5;
+    border: 1px solid #867417;
 }
 
 aside img{
@@ -143,7 +143,7 @@ aside img{
     font-weight: normal;
     text-transform: uppercase;
     margin-bottom: 1.3rem;
-    color: #0580B5;
+    color: #867417;
 }
 
 .aside-networks{
@@ -200,8 +200,8 @@ aside img{
      height: 3rem;
      width: 3rem;
      margin-right: 0.5rem;
-     border: 8px solid #0580B5;
-     background-color: #0580B5;
+     border: 8px solid #867417;
+     background-color: #867417;
      background-position: center;
      background-repeat: no-repeat;
      background-size: contain;
@@ -224,7 +224,7 @@ aside img{
 }
 
 .menu-sticky-link{
-    background-color: #159EBA;
+    background-color: #c7a707;
     display: flex;
     align-items: center;
     padding-right: 1rem;
@@ -243,8 +243,8 @@ aside img{
 }
 
 .menu-sticky-link:hover .menu-sticky-icon{
-    background-color: #1AB6D6;
-    border-color: #1AB6D6;
+    background-color: #FAD108;
+    border-color: #FAD108;
     transform: scale(1.1);
     transition: transform .3s;
     box-shadow: 3px -2px 15px 3px rgba(0,0,0,0.5);
@@ -255,7 +255,7 @@ aside img{
  .informations-title{
     font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
-    color: #0580B5;
+    color: #867417;
     font-size: 2.5rem;
     margin-bottom: 2rem;
  }
@@ -270,7 +270,7 @@ aside img{
 
 .informations-details-employer{
      font-weight: bold;
-     color: #1B4BFF;
+     color: #bd9e07;
      margin-bottom: 0.7rem;
  }
 
@@ -287,7 +287,7 @@ aside img{
  }
 
 .informations-employer-name{
-    color: #1B4BFF;
+    color: #bd9e07;
     font-weight: bold;
     flex: 0 0 100%;
 }
@@ -351,7 +351,7 @@ aside img{
     width: 50%;
     opacity: 1;
     background-size: 42px 42px;
-    background-image:  repeating-linear-gradient(to right, #ffffff, #ffffff 2.1px, #1B4BFF 2.1px, #1B4BFF);
+    background-image:  repeating-linear-gradient(to right, #ffffff, #ffffff 2.1px, #bd9e07 2.1px, #bd9e07);
 }
 
 .informations-competences{
