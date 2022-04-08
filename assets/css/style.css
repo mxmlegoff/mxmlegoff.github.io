@@ -25,7 +25,6 @@ img{
 
 body{
     font-family: Arial, sans-serif;
-    background: rgb(0,164,255);
     background: linear-gradient(90deg, rgba(199,167,7,0.15) 0%, rgba(250,209,8,0.15) 50%, rgba(199,167,7,0.15) 100%);
 }
 
@@ -392,6 +391,10 @@ aside img{
  .foot:after{
      background-image: url(../images/football.svg);
  }
+ 
+ .economie:after{
+    background-image: url(../images/euro.png);
+}
 
  .jeux:after{
     background-image: url(../images/jeux.svg);
@@ -401,3 +404,6 @@ aside img{
     background-image: url(../images/ordinateur.svg);
 }
 
+.spe{
+    font-size: 17px;
+}
